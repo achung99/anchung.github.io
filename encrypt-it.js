@@ -19,16 +19,15 @@
   function init() {
     // Note: In this function, we usually want to set up our event handlers
     // for UI elements on the page.
-    console.log("Window loaded!");
 
-    const encrypt_buttom = document.querySelector('#encyrpt-it');
+    const encrypt_button = document.querySelector('#encyrpt-it');
     const reset_button = document.querySelector('#reset');
     const fontsize12 = document.querySelector('#twelve_pts');
     const fontsize24= document.querySelector('#twenty_four_pts');
     const all_caps= document.querySelector('#all-caps');
 
     //Handling click buttons
-    encrypt_buttom.addEventListener("click, handleClick");
+    encrypt_button.addEventListener("click, handleClick");
 
     reset_button.addEventListener('click', reset);
 
